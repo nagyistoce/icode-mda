@@ -1,0 +1,57 @@
+# Introduction #
+
+This page describes current development of the maritime pirate situation assessment tool. This page includes information on who is developing the tool, it's status, and technical details with examples.
+
+# Tool Developer #
+
+Joel Dabrowski
+
+# Background and Application #
+
+In the efforts of maintaining maritime security, maritime surveillance is essential. Electronic surveillance is a tool that can be utilized to  survey  the  maritime  domain.  With  the  vast  spatial  range  of  the  oceans  and  shorelines,  electronic surveillance provides a high volume of data. Human analysts or operators are not able to analyse large volumes of data efficiently. Automatic maritime domain awareness systems provide a means for machines to analyse and interpret electronic surveillance data. The purpose of this tool is to provide such a system.
+
+A simulation environment is developed. The simulation results may be used in evaluating maritime situation awareness systems. A tool for classifying maritime vessels in a pirate situation is developed.
+
+# Applications #
+
+Applications for the tool include:
+  * Piracy
+  * Smuggling
+  * Illegal immigration.
+
+# Simulation Environment #
+
+The tool shall be developed using an agent based simulation environment. The simulation environment is developed using a novel dynamic Bayesian network (DBN). The simulation environment may be configured over a particular region with a set of vessels that operate within the region. The DBN is applied to model vessel behaviour. The manuscript describing this work may be obtained at the following location:
+
+[J. J. Dabrowski, J. P. de Villiers, Maritime piracy situation modelling with dynamic bayesian networks, Information Fusion 23 (2015) 116 – 130.](http://www.sciencedirect.com/science/article/pii/S1566253514000840)
+
+# Maritime Vessel Classification #
+
+A method of classifying vessels in a maritime pirate situation is proposed. The method uses a novel DBN that models vessel behaviour. The DBN provides a means to include contextual information that may influence behaviour.
+
+# Current Status #
+
+The simulation environment has been developed in MATLAB. A manuscript has been submitted to Elsevier's Information Fusion Journal on the work.
+
+The maritime vessel classification application has been developed in MATLAB. A manuscript has been submitted to Elsevier's Information Fusion Journal on the work. This paper will be made available as soon as possible.
+
+
+# Simulation Environment Example #
+
+<a href='Hidden comment: 
+The following image is a time slice of a simulation in progress for pirate activity. The cargo vessels (yellow) are simulated to follow paths between specified harbour points. The pirate agents (red) attempt to ambush and attack cargo vessels. Once a cargo vessel has been hijacked, the pirate returns to a home base (1).
+
+https://icode-mda.googlecode.com/svn/wiki/images/ADMRF_simulation.jpg.jpg
+'></a>
+
+The following google gadget provides an example of a simulation where a pirate vessel hijacks a transport vessel. The simulation data is generated using the MATLAB implementation and the results are plotted using google earth as a platform. Click the 'Start Simulation' button to run the simulation. Note that standard google earth functions and operations are available in the gadget.
+
+&lt;wiki:gadget url="https://icode-mda.googlecode.com/svn/wiki/scripts/JJD/SimulationGadget.xml" width="900" height="600" /&gt;
+
+
+# References #
+
+  1. J. J. Dabrowski, J. P. de Villiers, Maritime piracy situation modelling with dynamic bayesian networks, Information Fusion 23 (2015) 116 – 130. [(link)](http://www.sciencedirect.com/science/article/pii/S1566253514000840)
+<a href='Hidden comment: 
+[https://icode-mda.googlecode.com/svn/wiki/scripts/JJD/Dab13MaritimePreprint.pdf (link to an old preprint)]
+'></a>
